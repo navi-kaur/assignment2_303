@@ -11,6 +11,7 @@
 
 int main()
 {
+    // create class objects and implement functions
     Single_Linked_List<int>list;
     list.push_back(1);
     list.push_back(2);
@@ -28,6 +29,7 @@ int main()
     list.print();
     std::cout<<std::endl;
 
+    // create Professional class instance
     Professional emily;
     emily.setMonthlySalary(7000);
     emily.setVacationDays(35);
@@ -36,6 +38,7 @@ int main()
     std::cout << emily.getVacationDays() << std::endl;
 
 
+    // create Nonprofessional class instance
     Nonprofessional lily;
     lily.setHourlyRate(35);
     lily.setHoursWorked(40);
