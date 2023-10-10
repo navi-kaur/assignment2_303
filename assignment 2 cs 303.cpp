@@ -1,5 +1,5 @@
 // assignment 2 cs 303.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// I could not define my functions for the linked list in a cpp file because I used a template. 
 
 #include <iostream>
 #include "Assignment2.h"
